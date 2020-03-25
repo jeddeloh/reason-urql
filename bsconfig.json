@@ -1,5 +1,6 @@
 {
   "name": "reason-urql",
+  "refmt": 3,
   "reason": {
     "react-jsx": 3
   },
@@ -17,7 +18,7 @@
   ],
   "package-specs": [
     {
-      "module": "commonjs",
+      "module": "es6",
       "in-source": true
     }
   ],
@@ -25,8 +26,7 @@
   "namespace": false,
   "bs-dependencies": ["reason-react", "wonka", "bs-fetch"],
   "bs-dev-dependencies": ["@glennsl/bs-jest"],
-  "refmt": 3,
   "warnings": {
     "error": "+5"
-  },
+  }
 }
