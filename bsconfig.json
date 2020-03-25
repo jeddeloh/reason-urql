@@ -1,32 +1,26 @@
 {
-  "name": "reason-urql",
+  "name": "urql",
+  "namespace": false,
+  "refmt": 3,
   "reason": {
     "react-jsx": 3
+  },
+  "warnings": {
+    "error": "+5"
   },
   "bsc-flags": ["-bs-super-errors"],
   "sources": [
     {
-      "dir": "src",
-      "subdirs": true
-    },
-    {
-      "dir": "__tests__",
-      "subdirs": true,
-      "type": "dev"
+      "dir": "src"
     }
   ],
   "package-specs": [
     {
-      "module": "commonjs",
+      "module": "es6",
       "in-source": true
     }
   ],
   "suffix": ".bs.js",
-  "namespace": false,
   "bs-dependencies": ["reason-react", "wonka", "bs-fetch"],
-  "bs-dev-dependencies": ["@glennsl/bs-jest"],
-  "refmt": 3,
-  "warnings": {
-    "error": "+5"
-  },
+  "bs-dev-dependencies": ["@glennsl/bs-jest"]
 }
